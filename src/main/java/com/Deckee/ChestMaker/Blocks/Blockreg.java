@@ -10,17 +10,18 @@ import net.minecraftforge.oredict.OreDictionary;
 /**
  * Created by adam on 1/24/2016.
  */
+
 public class Blockreg {
     public static Block ChestMaker;
     public static Block BlackBlock;
-
+    public static Block Blockautochest;
 
 
     public static final void init()
     {
         GameRegistry.registerBlock(BlackBlock = new BlackBlock("BlackBlock", Material.wood),"BlackBlock");
         GameRegistry.registerBlock(ChestMaker = new ChestMaker("ChestMaker", Material.wood),"ChestMaker");
-
+        GameRegistry.registerBlock(Blockautochest = new Blockautochest(),"Blockautochest");
 
         OreDictionary.registerOre("blockChest", new ItemStack(Blocks.chest));
     }

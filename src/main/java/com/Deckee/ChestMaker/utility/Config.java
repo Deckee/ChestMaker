@@ -10,8 +10,9 @@ import java.io.File;
  */
 public final class Config {
     public static Configuration configuration;
-    public static boolean hi = false;
+
     public static boolean maker = true;
+
 
 
 
@@ -25,8 +26,9 @@ public final class Config {
         }
     }
     private static void loadConfiguration()
-    {
-        hi = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL,false, "hi");
+
+        {
+        ChestMaker.sound = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL,false, "sounds for auto chestmaker");
 
         if (configuration.hasChanged())
         {

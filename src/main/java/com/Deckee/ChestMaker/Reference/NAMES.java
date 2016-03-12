@@ -9,4 +9,7 @@ public final class NAMES {
         public static final String CATEGORY = "keys.ChestMaker.Category";
         public static final String CHEST = "keys.ChestMaker.SOUND";
     }
+    public static class TileEintities{
+        public static final String Auto_Chest = Reference.MODID + ":" + "ÄutoChest";
+    }
 }

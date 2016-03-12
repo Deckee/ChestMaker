@@ -8,6 +8,7 @@ import com.Deckee.ChestMaker.Proxy.IProxy;
 import com.Deckee.ChestMaker.Reference.Reference;
 import com.Deckee.ChestMaker.utility.Config;
 import com.Deckee.ChestMaker.utility.LogHelper;
+import com.Deckee.ChestMaker.utility.ModTileEntities;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Optional;
@@ -29,6 +30,10 @@ public static ChestMaker instance;
 
     @SidedProxy(clientSide = Reference.ClientProxy, serverSide = Reference.ServerProxy)
     public static CommonProxy proxy;
+    public static boolean sound = true;
+
+
+
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
@@ -43,6 +48,7 @@ public static ChestMaker instance;
              Blockreg.init();
 
              Crafting.init();
+        ModTileEntities.init();
 
 
         LogHelper.info("I prefer the hard truths of Zombies to the easy lies of Elves");
