@@ -1,21 +1,14 @@
 package com.Deckee.ChestMaker.Reference;
 
 /**
- * Created by adam on 1/18/2016.
+ * Created by adam on 3/19/2016.
  */
 public class Reference {
-
-
-    public static final String MODID ="chestmaker";
+    public static final String MODID = "chestmaker";
     public static final String MODNAME = "ChestMaker";
-    public static final String VERSION = "1.0.2";
-    public static final String ClientProxy = "com.Deckee.ChestMaker.Proxy.Clientproxy";
-    public static final String ServerProxy = "com.Deckee.ChestMaker.Proxy.Serverproxy";
+    public static final String VERSION = "2.0.0";
+    public static final String ClientProxy = "com.Deckee.ChestMaker.Proxy.ClientProxy";
+    public static final String ServerProxy = "com.Deckee.ChestMaker.Proxy.ServerProxy";
     public static final String CoMMProxy = "com.Deckee.ChestMaker.Proxy.CommonProxy";
 
-
-    }
-
-//public static final String MODID = "Decktech";
-//public static final String MODNAME = "DeckTech";
-//public static final String VERSION = "1.0.2";
+}

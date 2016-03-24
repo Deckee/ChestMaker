@@ -1,4 +1,5 @@
 tile.ChestMaker.name=ChestMaker
 tile.BlackBlock.name=Void Darkness
+tile.Blockautochest.name=Auto ChestMaker
 keys.ChestMaker.Category=ChestMaker
 keys.ChestMaker.SOUND=Be The Soaryn
