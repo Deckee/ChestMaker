@@ -1,6 +1,7 @@
 package com.Deckee.ChestMaker.Client.Render.Blocks;
 
 import com.Deckee.ChestMaker.Blocks.Blockregister;
+import com.Deckee.ChestMaker.Blocks.Chestmaker;
 import com.Deckee.ChestMaker.Reference.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
@@ -11,11 +12,12 @@ import net.minecraft.item.Item;
  * Created by adam on 3/20/2016.
  */
 public final class BlockRenderRegister {
-
+//may be removed is a lie
     public static String modid = Reference.MODID;
 
     public static void registerBlockRenderer() {
-        reg(Blockregister.ChestMaker);
+        reg(Blockregister.chestmaker);
+        reg(Blockregister.voidDarkNess);
 
     }
 

@@ -1,7 +1,6 @@
 package com.Deckee.ChestMaker.utility;
 
 
-import com.Deckee.ChestMaker.Reference.Reference;
 import net.minecraftforge.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 
@@ -12,7 +11,7 @@ import org.apache.logging.log4j.Level;
 public class LogHelper {
 
     public static void log(Level logLevel, Object object) {
-        FMLLog.log(Reference.MODNAME, logLevel, String.valueOf(object));
+        FMLLog.log("ChestMaker", logLevel, String.valueOf(object));
     }
 
     public static void all(Object object) {

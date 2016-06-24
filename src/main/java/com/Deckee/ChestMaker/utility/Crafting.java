@@ -11,7 +11,8 @@ import net.minecraftforge.oredict.ShapedOreRecipe;
  */
 public final class Crafting {
     public static void init() {
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(Blockregister.ChestMaker, 1), new Object[]{"WCW", "CWC", "WCW", 'W', "logWood", 'C', "chestWood"}));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(Blockregister.chestmaker, 1), new Object[]{"WCW", "CWC", "WCW", 'W', "logWood", 'C', "chestWood"}));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(Blockregister.voidDarkNess, 32), new Object[]{"oi", 'o', "blockCoal", 'i', "dyeBlack"}));
     }
 
 
